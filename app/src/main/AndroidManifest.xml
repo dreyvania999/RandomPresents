@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomPresents">
         <activity
+            android:name=".AdminAddToct"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddCongratulation"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddPresents"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Presents"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
