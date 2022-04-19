@@ -49,6 +49,7 @@ public class DBHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("create table " + CongratulationT + "(" + KEY_ID
                 + " integer primary key," + Toct + " text" + ")");
         sqLiteDatabase.execSQL( "CREATE VIEW " + Congratulation + " AS SELECT " + " * "  +  " FROM "+ CongratulationT  + " CROSS JOIN "+  CongratulationM + ";");
+
     }
 
     @Override
